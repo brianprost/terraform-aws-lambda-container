@@ -3,7 +3,7 @@
 set -e
 
 IMAGE_NAME="dino-service"
-IMAGE_TAG="dino-greeter-v0.1.0"
+IMAGE_TAG="dino-greeter-v0.1.1"
 
 # get AWS Account ID
 AWS_ACCOUNT_ID=$(aws sts get-caller-identity --query Account --output text)

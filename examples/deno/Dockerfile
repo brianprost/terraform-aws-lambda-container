@@ -1,4 +1,3 @@
-# Set up the base image
 FROM public.ecr.aws/awsguru/aws-lambda-adapter:0.9.0 AS aws-lambda-adapter
 FROM denoland/deno:bin-2.1.10 AS deno_bin
 FROM debian:bookworm-slim AS deno_runtime
