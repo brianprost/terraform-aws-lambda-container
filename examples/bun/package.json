@@ -1,0 +1,14 @@
+{
+  "name": "bun",
+  "module": "index.ts",
+  "dependencies": {
+    "@aws-lambda-powertools/logger": "^2.14.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "^1.2.2"
+  }
+}
